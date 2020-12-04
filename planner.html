@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
+    <title>Day Planner</title>
+</head>
+</head>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <div class="links-container" class="navbar-nav mr-auto">
+           
+            <div class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/mohammed-arafat1992/">LinkedIn</a>
+          </div>
+            <div class="nav-item">
+                <a class="nav-link" href="https://github.com/Mohammed-19992">GitHub</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link" href="https://drive.google.com/file/d/1pGZ87X0aHtwEIamRUfXptRTx9W-8Fy7B/view?usp=sharing">Resume</a>
+          </div>
+          </div>
+    </div>
+    <div class="mx-auto order-0">
+      <a style="font-family: 'Chivo', sans-serif; font-size: 16px; font-style: italic ;" class="navbar-brand mx-auto">"Programming is the purest form of poetry." - Dr. Alan Perlis</a>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a id="currentTime"></a>
+            </li>
+            <li class="nav-item">
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</header>
+
+
+<body id="contactcard">
+
+    <div id="contactform">
+        <div id="firstbox">
+            <img src="pics/planner.png" alt="planner" width="500px" height="560px">
+
+        </div>
+        <div id="secondbox">
+            <h3>Day Planner</h3>
+            <p>This Calender/Scheduler application runs in the browser responsively, and it's powered by jQuery. Using
+                the Moment.js library to work with date and time, this application allows users to save events and
+                important events for each hour of the day. When the user views the timeblocks of the current day, each
+                timeblock is color-coded to indicate whether it is in the past, present, or future. The past is light
+                pink, the present is light brown, and the future is light green. When the user enters an event, they can
+                save that event in local storage, which means that they can refresh thier page and the saved events
+                persist.</p>
+                <br>
+                <h5>Project Links:</h5>
+                <p><a href="https://mohammed-19992.github.io/day-planner/">Deployed Version</a></p>
+                <p><a href="https://github.com/Mohammed-19992/day-planner">GitHub Repository</a></p>
+
+
+        </div>
+
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+    
+          <h3>Mohammed<span>Arafat</span></h3>
+    
+          <p style="font-family: 'Noto Sans JP', sans-serif;" class="footer-links">
+            <a href="index.html" class="link-1">Home</a>
+    
+            <a href="https://moharafat.wordpress.com/">Blog</a>
+    
+            <a href="https://github.com/Mohammed-19992">GitHub</a>
+    
+          </p>
+    
+    
+          <p style="font-family: 'Noto Sans JP', sans-serif;" class="footer-company-name">Mohammed Arafat © 2020</p>
+        </div>
+    
+        <div class="footer-center">
+    
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p style="font-family: 'Noto Sans JP', sans-serif;"></p><span>Valley Lane</span> Falls Church, Virginia</p>
+          </div>
+    
+          <div>
+            <i class="fa fa-phone"></i>
+            <p style="font-family: 'Noto Sans JP', sans-serif;">+1 (571) 343-8212</p>
+          </div>
+    
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p style="font-family: 'Noto Sans JP', sans-serif;"><a href="mailto:abusalaharafat@hotmail.com">abusalaharafat@hotmail.com</a></p>
+          </div>
+    
+        </div>
+    
+        <div class="footer-right">
+    
+          <p style="font-family: 'Noto Sans JP', sans-serif;" class="footer-company-about">
+            <span style="font-family: 'Noto Sans JP', sans-serif;">About Mohammed</span>
+            Mohammed Arafat, 28, is a Palestinian writer, Poet and Web Development Engineer.
+          </p>
+    
+          <div class="footer-icons">
+    
+            <a href="https://www.facebook.com/mohammed.arafat.338211"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/moharafat92"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/mohammed-arafat1992/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/Mohammed-19992"><i class="fa fa-github"></i></a>
+    
+          </div>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+      <script src="./script.js"></script>
+    </body>
+    
+    </html>
