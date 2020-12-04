@@ -2,7 +2,7 @@
 Updated Portfolio
 
 ## Overview & Technologies Used:
-once I started building this site, I started from scratch. Several files were created. Each file of these represents one different page we go to using the navigation bar that was built in each one of these page.
+Once I started building this website two months ago (our first updated portfolio), I started from scratch. Several files were created. Each file of these represents one different page we go to using the navigation bar that was built in each one of these page.
 I started with the index, which consisted of title, heading, body, and footer. It consists of the about me section and the projects section. The project section includes five projects, and each projects takes to its own page once you click on it. Once you go to a specific project page, the page will consist of intro about the project, screenshot, and links to the deployed project.
 All pages are connected to the style sheet.
 Each page of the three pages is responsive. I tried openning them all using different devices, and they worked almost perfectly. Media queries are minimized as much as I could.
@@ -10,12 +10,12 @@ Different fonts are added from google fonts.
 A clock using java script was created as well.
 
 ## screenshot of the project:
-![porfolio](https://user-images.githubusercontent.com/67847324/95365344-0238d280-08a0-11eb-81b5-307b32b47195.PNG)
+<img width="1440" alt="Screen Shot 2020-12-03 at 8 26 06 PM" src="https://user-images.githubusercontent.com/67847324/101109890-d9824000-35a5-11eb-9dc4-0fbf90022e9b.png">
 
 * The URL of the deployed application.
-https://mohammed-19992.github.io/updated-portfolio/
+https://mohammed-19992.github.io/updated-portfolio2/
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-https://github.com/Mohammed-19992/updated-portfolio
+https://github.com/Mohammed-19992/updated-portfolio2
 
 ## MIT License
 
