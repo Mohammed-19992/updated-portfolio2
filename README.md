@@ -10,7 +10,7 @@ Different fonts are added from google fonts.
 A clock using java script was created as well.
 
 ## screenshot of the project:
-![porfolio](https://user-images.githubusercontent.com/67847324/95365344-0238d280-08a0-11eb-81b5-307b32b47195.PNG)
+<img width="1440" alt="Screen Shot 2020-12-03 at 8 26 06 PM" src="https://user-images.githubusercontent.com/67847324/101109890-d9824000-35a5-11eb-9dc4-0fbf90022e9b.png">
 
 * The URL of the deployed application.
 https://mohammed-19992.github.io/updated-portfolio/
